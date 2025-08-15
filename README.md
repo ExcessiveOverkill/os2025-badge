@@ -38,7 +38,7 @@ The fuses required are - described as what changes from the defaults:
 
 | Fuse     | Setting | Comment                                       |
 |----------|---------|-----------------------------------------------|
-| Low      | 0xE2    | Clear CKDIV8 - run cpu at full 8MHzC          |
+| Low      | 0xE2    | Clear CKDIV8 - run cpu at full 8MHz           |
 | High     | 0x5F    | Set RSTDISBL - reconfigure reset pin as GPIO* |
 | Extended | 0xFF    | default                                       |
 | Lock     | 0xFF    | default                                       |
